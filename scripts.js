@@ -5,20 +5,20 @@
 var Config = {
     base_url: "https://raw.githubusercontent.com/Pokemon-Deas-Scripting/po-server-goodies/master/",
     dataDir: "scriptdata/",
-    bot: "Dratini",
-    kickbot: "Blaziken",
-    capsbot: "Exploud",
-    channelbot: "Chatot",
-    checkbot: "Snorlax",
-    coinbot: "Meowth",
+    bot: "Bot",
+    kickbot: "KickBot",
+    capsbot: "CapsBot",
+    channelbot: "ChannelBot",
+    checkbot: "CheckBot",
+    coinbot: "CoinBot",
     countbot: "CountBot",
-    tourneybot: "Typhlosion",
-    rankingbot: "Porygon",
-    battlebot: "Blastoise",
+    tourneybot: "TourBot",
+    rankingbot: "RankBot",
+    battlebot: "BattleBot",
     commandbot: "CommandBot",
     querybot: "QueryBot",
-    hangbot: "Unown",
-    bfbot: "Goomy",
+    hangbot: "HangBot",
+    bfbot: "BfBot",
     // suspectvoting.js available, but not in use
     Plugins: ["mafia.js", "amoebagame.js", "tournaments.js", "tourstats.js", "trivia.js", "tours.js", "newtourstats.js", "auto_smute.js", "battlefactory.js", "hangman.js", "blackjack.js", "mafiastats.js", "mafiachecker.js"],
     Mafia: {
@@ -29,11 +29,11 @@ var Config = {
         notPlayingMsg: "±Game: The game is in progress. Please type /join to join the next mafia game."
     },
     DreamWorldTiers: ["All Gen Hackmons", "ORAS Hackmons", "ORAS Balanced Hackmons", "No Preview OU", "No Preview Ubers", "DW LC", "DW UU", "DW LU", "Gen 5 1v1 Ubers", "Gen 5 1v1", "Challenge Cup", "CC 1v1", "DW Uber Triples", "No Preview OU Triples", "No Preview Uber Doubles", "No Preview OU Doubles", "Shanai Cup", "Shanai Cup 1.5", "Shanai Cup STAT", "Original Shanai Cup TEST", "Monocolour", "Clear Skies DW"],
-    superAdmins: ["[LD]Jirachier", "Mahnmut", "Strudels"],
-    canJoinStaffChannel: ["Lamperi-"],
+    superAdmins: ["", "", ""],
+    canJoinStaffChannel: [""],
     disallowStaffChannel: [],
     topic_delimiter: " | ",
-    registeredLimit: 30
+    registeredLimit: 45
 };
 
 // Don't touch anything here if you don't know what you do.
